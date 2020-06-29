@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 public class TestForJenkins {
 
 	public String test(String name) {
+		System.out.println("syso");
 		return name;
 	}
 }
